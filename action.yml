@@ -4,12 +4,6 @@ branding:
   icon: book-open
   color: white
 inputs:
-  gh-username:
-    description: "GitHub username of user who has access to the repository"
-    required: true
-  gh-token:
-    description: "GitHub access token of user who has access to the repository"
-    required: true
   notion-key:
     description: "Notion Integration Secret Key"
     required: true
