@@ -1,5 +1,5 @@
 name: "Notion Update Page"
-description: "Update property of Notion page on commit"
+description: "Update property of Notion page"
 branding:
   icon: book-open
   color: white
@@ -12,6 +12,9 @@ inputs:
     required: true
   notion-key:
     description: "Notion Integration Secret Key"
+    required: true
+  notion-page-id:
+    description: "Notion Page id to be updated"
     required: true
   notion-property-name:
     description: "Notion Page property to be updated"
