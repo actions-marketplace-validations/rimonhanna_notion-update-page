@@ -3243,11 +3243,8 @@ const generateUpdateProps = (
   }
 
   if (propertyType === SUPPORTED_PROPERTY_TYPES.URL) {
-    const url = pageDetails.properties[propertyName].url;
-    url.push({ name: newValue });
-
     return {
-      url: url,
+      url: newValue,
     };
   }
 
