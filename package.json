@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/szenius/notion-update-page.git"
+    "url": "git+https://github.com/rimonhanna/notion-update-page.git"
   },
   "author": "Sze Ying",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/szenius/notion-update-page/issues"
+    "url": "https://github.com/rimonhanna/notion-update-page/issues"
   },
-  "homepage": "https://github.com/szenius/notion-update-page#readme",
+  "homepage": "https://github.com/rimonhanna/notion-update-page#readme",
   "dependencies": {
     "@actions/core": "^1.5.0",
     "@notionhq/client": "^0.3.2",
