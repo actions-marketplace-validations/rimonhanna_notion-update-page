@@ -3216,6 +3216,7 @@ const { Client } = __nccwpck_require__(324);
 __nccwpck_require__(437).config();
 
 const SUPPORTED_PROPERTY_TYPES = {
+  URL: "url",
   RICH_TEXT: "rich_text",
   MULTI_SELECT: "multi_select",
 };
@@ -3238,6 +3239,15 @@ const generateUpdateProps = (
 
     return {
       multi_select: selectValues,
+    };
+  }
+
+  if (propertyType === SUPPORTED_PROPERTY_TYPES.URL) {
+    const url = pageDetails.properties[propertyName].url;
+    url.push({ name: newValue });
+
+    return {
+      url: url,
     };
   }
 
